@@ -13,7 +13,8 @@ cur.execute("DROP TABLE IF EXISTS users")
 sql ='''CREATE TABLE "users" (
 	"UID"	INTEGER PRIMARY KEY AUTOINCREMENT,
 	"UNAME"	TEXT,
-	"CONTACT"	TEXT
+	"CONTACT"	TEXT,
+	"EMAIL" TEXT
 )'''
 cur.execute(sql)
 
